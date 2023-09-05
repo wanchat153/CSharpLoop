@@ -21,11 +21,23 @@ namespace CSharpLoop
                 i = i + 1;
             }*/
 
-            //Loop for two times table
-            for (int i = 0; i <= 12; i++)
+
+            ////Loop for two times table
+            //for (int i = 0; i <= 12; i++)
+            //{
+            //    Console.WriteLine("2 * " + i + " = " + (i*2));
+            //}
+            //Console.WriteLine("END");
+            //Console.ReadLine();
+
+            //Loop do while
+            int count = 0;
+            do 
             {
-                Console.WriteLine("2 * " + i + " = " + (i*2));
+                Console.WriteLine("HI " + count);
+                count++;
             }
+            while (count < 10);
             Console.WriteLine("END");
             Console.ReadLine();
         }
