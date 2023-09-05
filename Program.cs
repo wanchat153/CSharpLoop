@@ -10,6 +10,7 @@ namespace CSharpLoop
     {
         static void Main(string[] args)
         {
+            /*
             //Loop while
             int i = 1;
             while (i < 5)
@@ -18,7 +19,15 @@ namespace CSharpLoop
 
                 //i + 1; OR i++;
                 i = i + 1;
+            }*/
+
+            //Loop for i = 0; < 3;  i+1;
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("M");
             }
+            Console.WriteLine("END");
+            Console.ReadLine();
         }
     }
 }
